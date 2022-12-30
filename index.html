@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+    rel="stylesheet"
+    />
+    <link
+    href="css/parallax-hero.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
+    <style>
+    .parallax {
+        /* The image used */
+        background-image: url("assets/img-about_files/kevin8.jpg");
+
+        /* Set a specific height */
+        min-height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+    </style>
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-custom">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+            <img src="https://placeholder.pics/svg/150x50/888888/EEE/Logo" alt="..." height="36">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link  colorwhite" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorwhite" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorwhite" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="landingpage" style="background-color:#04CCC0;">
+        <div class="container">
+            <div class="row" style="height: 750px;">
+                <div class="menyimpan poppins col-6 mt-5 pt-5">
+                    <h1 style="color:white;font-size: 80px; font-weight: bold">Menyimpan <br> bersama kami
+                    </h1>
+                    <p style="color: white; padding-bottom: 20px; padding-top: 30px;">Lahir untuk anda yang gemar bertransaksi,<br> banyak fiturnya, luar biasa efektifnya,<br> dan nyaman tentunya !</p>
+                    <button type="button" class="btn btn-primary btn-rounded">Kenalan, Yuk !</button>
+                </div>
+                <div class="col-6" >
+                    <img class="img" src="assets/img/hero.png" height="500px"  alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-5 pt-5" id="about">
+        <div class="container pt-5 mt-5">
+            <div class="row" style="text-align: center;">
+                <img class="img-bdi pt-5" style="display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 150px;" src="assets/img/logo.png"></img>
+                <h1 class="font-d pt-5 poppins" style="font-size: 40px; font-weight: bold;">BDI by BANK DIGITAL</h1>
+                <p class="font-d mt-3 poppins">Aplikasi mobile bank digital yang bisa ini itu <br> untuk kamu !</p>
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-12 pt-5" style="text-align: center;">
+                    <button type="button" class="btn btn-xl btn-rounded btns" >Selengkapnya</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="tatakelola pt-5" style="background-color: #F4FBFB;">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-6">
+                    <img class="tata img-fluid" src="assets/img/tatakelola.png" height="500px" style="padding-left: 100px;" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="tata poppins" style="font-size: 90px; color: #04CCC0;">Tata Kelola <br> Perusahaan</h1>
+                    <p class="tata pt-5" style="font-size: 20px;">Bagi kami, transparansi usaha, kualitas pelayanan, dan kepercayaan nasabah adalah kunci perusahaan kami</p>
+                    <a class="tata" href="#about">Selengkapnya</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/parallax-hero.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <script>
+        ScrollReveal({
+            reset: true,
+            distance: '50px',
+            duration: 1500,
+            delay:300
+        });
+
+        ScrollReveal().reveal('.img-bdi, .font-d, .btns, .tata', { delay: 50});
+        ScrollReveal().reveal('.tata', { delay: 300});
+    </script>
+    </body>
+</html>

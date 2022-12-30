@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-custom {
+    background-color: #04CCC0;
+}
+.colorwhite {
+    color: #fff;
+}
+.btn-primary, 
+        .btn-primary:hover {
+            background-color: #04CCC0 !important;
+            border-color: #04CCC0;
+        }
+        .btn-primary:active,
+        .btn-primary:focus {
+            color: #ffff;
+            background-color: #04CCC0 !important;
+            border-color: #04CCC0 !important;
+            box-shadow: 0 0 0 0.2rem rgba(41, 161, 241, 0.5) !important;
+        }
+.btn-xl {
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 15px;
+    width:200px;
+    outline-color: #0000 !important;
+    color: #04CCC0;
+    background-color: #fff;
+    border-color: #04CCC0 !important;
+}
+.btn-xl:hover {
+    color: #fff;
+    background-color: #04CCC0;
+    border-color: #04CCC0;
+    }
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+    
